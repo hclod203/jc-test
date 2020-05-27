@@ -27,7 +27,7 @@ pipeline {
       steps {
         script {
           docker.withRegistry( "" ) {
-            dockerImage.Push()
+            dockerImage.push()
          }
        }
      }
