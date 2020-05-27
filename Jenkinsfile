@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/hcloud203/jc-test.git'
+        git url:'https://github.com/hclod203/jc-test.git'
       }
     }
     
