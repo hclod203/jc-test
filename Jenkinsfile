@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-      registry = "https://hub.docker.com/repository/docker/hcloud203/acp-test"
+      registry = "https://hub.docker.com/repository/docker/hcloud203/acp-test/justme/myweb"
       dockerImage = ""
   }
   
